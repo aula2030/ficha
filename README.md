@@ -18,6 +18,11 @@ La instalación es muy sencilla, con pasos comunes, a través de `composer` y co
 
 ### Configuración necesaria
 
-La aplicación utiliza el paquete ```backpack/permissionmanager``` para gestionar usuarios, roles y permisos. Es necesario que exista el permiso `gest-accesos` para habilitar el acceso a la gestión de usuarios-roles-permisos (tanto via menú lateral como con url). El permiso `gest-accesos` se crea con el seed durante la instalación.
+La aplicación utiliza el paquete ```backpack/permissionmanager``` para gestionar usuarios, roles y permisos. 
+
+1. Es necesario que exista el permiso `gest-accesos` para habilitar el acceso a la gestión de usuarios-roles-permisos (tanto via menú lateral como con url).
+2. Es necesario que exista el permiso `gest-proyectos` para habilitar el acceso a la gestión de proyectos y tareas.
+
+> Los permisos `gest-accesos` y `gest-proyectos` se crean con el seed durante la instalación.
 
 La pantalla de login muestra los usuarios existentes. Una vez conectado como admin se puede modificar al gusto.
